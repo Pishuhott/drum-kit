@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         audio.currentTime = 0;
         audio.play();
         key.classList.add('playing');
-        console.log(key);
     }
 
     function removeTransition(e) {
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
     keys.forEach(key => key.addEventListener('click', function (e) {
         this.getAttribute('data-key')
         playSound(this.getAttribute('data-key'))
-        console.log(this.getAttribute('data-key'))
     }));
 
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));

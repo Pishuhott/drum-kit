@@ -5,4 +5,4 @@
 
 **Description**
 
-A music application that plays sound when you press certain keys on your keyboard. Each key has its own sound. Clicking on the buttons with a computer mouse is implemented.
+A music application that plays a sound when you press certain keys on the keyboard or when a bear is pressed. Each key has its own sound.
